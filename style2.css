@@ -1,0 +1,145 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
+body{
+  background-image: linear-gradient(#FFCD40, #EA408F); 
+}
+
+
+#profileContainer{
+  background-color: white;
+    margin-top: 50px;
+    box-shadow: 3px 3px 5px 6px darkgrey;
+    border-radius: 25px;
+  }
+
+#profCard{
+    box-shadow: 3px 3px 5px 6px #ccc;
+    border-radius :15px;
+    margin: 20px;
+    padding: 40px;
+}
+
+table {
+  margin-top: 30px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+footer{
+  background-color:white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+#hr{
+  background: lightgray;
+  width: auto;
+}
+
+footer img{
+  text-align: center;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  vertical-align: middle;
+  border-style: none;
+}
+
+#footerlogo{
+  padding-top: 50px;
+}
+
+.image-container{
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+footer h2{
+  font-family: "Times New Roman", Times, serif;
+}
+
+#hhrr{
+  background-color:black;
+  width: 350px;
+}
+
+footer i{
+  height: 20px;
+  color: #33007e;
+  padding-right: 5px;
+}
+footer p{
+  color: #000000;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  #footerLogo img{
+    margin: auto;
+  }
+}
+
+footer a{
+  text-decoration: none;
+  color: rgb(128, 123, 123);
+}
+
+footer a:hover{
+  text-decoration: none;
+  color : brown;
+}
+
+#follow{
+padding-top :10px;
+padding-left: 50px;
+}
+
+#follow i{
+  padding-top: 7px;
+  padding-left: 4px;
+  text-align: center;
+  color: #B51D1D;
+  height: 30px;
+  width: 30px;
+  background-color: darkgray;
+  border-radius: 50%;
+}
+
+#follHead{
+padding-left: 30px;
+}
+
+#line3{
+  background-color:black;
+  text-align: right;
+  width:300px;
+}
+
+#paraAllRight{
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+  background-color:#33007e;
+}
