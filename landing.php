@@ -62,8 +62,8 @@ echo($resultNotCompleted);
         <div data-layer="17966088-53a3-410a-9db6-6b8b35b27d64" class="rectangle9"></div>
         <div data-layer="4bf03382-843d-47b3-a55d-e870b1de3f1b" class="rectangle8"></div>
         <div data-layer="f6394654-6f39-49c7-b73d-5c8d728ed092" class="x100"><?php echo($resultPending); ?></div>
-        <div data-layer="c3d8dc45-85ce-4d8b-9d6c-a5a6d8de899e" class="x50e0b36d3c"><?php echo($resultCompleted); ?></div>
-        <div data-layer="e6c4d378-bbc7-48dd-b6b1-24cb6773a481" class="x50"><?php echo($resultNotCompleted); ?></div>
+        <div data-layer="c3d8dc45-85ce-4d8b-9d6c-a5a6d8de899e" class="x50e0b36d3c"><?php echo($resultNotCompleted); ?></div>
+        <div data-layer="e6c4d378-bbc7-48dd-b6b1-24cb6773a481" class="x50"><?php echo($resultCompleted); ?></div>
         <div data-layer="fdda473f-e804-4121-8c44-64a682dabd9b" class="grievanceCounter">Grievance Counter</div>
         <svg data-layer="9ea13eea-3cbd-487e-9315-52c2d86f8aff" preserveAspectRatio="none" viewBox="0 -0.5 1906 1" class="line1"><path d="M 0 0 L 1906 0"  /></svg>
         <div data-layer="003d2c31-08a0-4097-8918-4c91f105918e" class="howDoesTheGrievanceSystemWorks">How Does The Grievance System Works ?</div>

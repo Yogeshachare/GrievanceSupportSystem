@@ -29,7 +29,7 @@ $mail = new PHPMailer(true);
     //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 
     // Content                                 // Set email format to HTML
-    $mail->Subject = 'Here is the subject';
+    $mail->Subject = 'OTP for Registration | PCE Student Grievance Support System';
     $mail->Body    = $otp;
 
     $result = $mail->Send();

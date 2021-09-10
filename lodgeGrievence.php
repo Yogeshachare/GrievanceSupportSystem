@@ -36,7 +36,7 @@
 <body>
     <!-- Navbar -->  
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light " id="navs">
-    <a href="index.php"><img src="img/flower.png" style="height: 40px; width:40px;"></img></a>
+    <a href="landing.php"><img src="img/flower.png" style="height: 40px; width:40px;"></img></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -48,18 +48,15 @@
         <a class="nav-link" style="color: black; font-weight:bold;" href="landing.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" style="color: black; font-weight:bold;" href="#">Link</a>
+        <a class="nav-link" style="color: black; font-weight:bold;" href="profile.php">Profile</a>
       </li>
       <li class="nav-item dropdown active">
         <a class="nav-link dropdown-toggle" style="color: black; font-weight:bold;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
+          Login
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
+          <a class="dropdown-item" href="Login.php">User</a>
+          <a class="dropdown-item" href="adminLogin.php">Admin</a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" style="color: black; font-weight:bold;" href="about_us/aboutus.php" tabindex="-1">About us</a>
